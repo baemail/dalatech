@@ -36,9 +36,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:layout_marginLeft="4dp"
                     android:layout_marginTop="64dp"
-                    android:text="First Name *"
+                    android:text="Имя *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/firstName"
                     app:layout_constraintTop_toBottomOf="@+id/rent_A_Car" />
@@ -65,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Middle Name"
+                    android:text="Отчество"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/firstNameText"
                     app:layout_constraintTop_toBottomOf="@+id/firstName" />
@@ -88,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Last Name *"
+                    android:text="Фамилия *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/middleNameText"
                     app:layout_constraintTop_toBottomOf="@+id/middleName" />
@@ -134,7 +133,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Driver License *"
+                    android:text="№ вод.удостоверения *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/emailText"
                     app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -157,7 +156,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Expiry Date *"
+                    android:text="Дата истечения срока годности *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/licenseText"
                     app:layout_constraintTop_toBottomOf="@+id/license" />
@@ -193,7 +192,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Date of Birth *"
+                    android:text="Дата рождения *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/expiryText"
                     app:layout_constraintTop_toBottomOf="@+id/expiry_date_underline" />
@@ -229,7 +228,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Phone Number *"
+                    android:text="Номер телефона *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/dobText"
                     app:layout_constraintTop_toBottomOf="@+id/dob_field_underline" />
@@ -252,7 +251,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Street *"
+                    android:text="Улица *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/phoneNoText"
                     app:layout_constraintTop_toBottomOf="@+id/phoneNumber" />
@@ -275,7 +274,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="City *"
+                    android:text="Город *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/streetText"
                     app:layout_constraintTop_toBottomOf="@+id/street" />
@@ -298,7 +297,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Postal Code *"
+                    android:text="Почтовый индекс *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/cityText"
                     app:layout_constraintTop_toBottomOf="@+id/city" />
@@ -321,7 +320,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Password *"
+                    android:text="Пароль *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/postalCodeText"
                     app:layout_constraintTop_toBottomOf="@+id/postalCode" />
@@ -345,7 +344,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Confirm Password *"
+                    android:text="Подтвердите пароль *"
                     android:textColor="@color/colorSecondary"
                     app:layout_constraintStart_toStartOf="@+id/passwordText"
                     app:layout_constraintTop_toBottomOf="@+id/password" />
@@ -370,7 +369,7 @@
                     android:layout_height="@dimen/buttonSize"
                     android:layout_marginTop="20dp"
                     android:background="@drawable/round_button"
-                    android:text="Register"
+                    android:text="Регистрация"
                     android:textColor="@android:color/white"
                     android:textSize="18sp"
                     app:fontFamily="@font/roboto_medium"
@@ -400,8 +399,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="128dp"
                     android:layout_marginEnd="8dp"
-                    android:layout_marginRight="8dp"
-                    android:text="Registration"
+                    android:text="Регистрация"
                     android:textColor="@color/colorSecondary"
                     android:textSize="30sp"
                     android:textStyle="bold"

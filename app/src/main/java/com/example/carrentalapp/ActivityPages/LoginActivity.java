@@ -178,15 +178,15 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-                Vehicle v1 = new Vehicle(273,65.5,5,6497,"nissan","altima",2020,"Тракторы",true,"https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/ldm-images/2020-Nissan-Altima-Color-Super-Black.png");
-                Vehicle v2 = new Vehicle(285,54.8,5,4578,"toyota","avalon",2020,"Тракторы",true,"https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2020/toyota/avalon/limited/sedan/main/2020_toyota_avalon_LTD_Main.png");
-                Vehicle v3 = new Vehicle(287,50.99,5,1379,"subaru","wrx",2020,"Тракторы",true,"https://img.sm360.ca/ir/w640h390c/images/newcar/ca/2020/subaru/wrx/base-wrx/sedan/exteriorColors/12750_cc0640_001_d4s.png");
+                Vehicle v1 = new Vehicle(273,65.5,5,6497,"nissan","altima",2020,"Тракторы",true,"");
+                Vehicle v2 = new Vehicle(285,54.8,5,4578,"toyota","avalon",2020,"Тракторы",true,"");
+                Vehicle v3 = new Vehicle(287,50.99,5,1379,"subaru","wrx",2020,"Тракторы",true,"");
 
-                Vehicle v4 = new Vehicle(265,58.89,5,6490,"kia","telluride",2020,"Комбаины",true,"https://www.cstatic-images.com/car-pictures/xl/usd00kis061c021003.png");
-                Vehicle v5 = new Vehicle(229,86.5,5,4970,"lincoln","aviator",2020,"Комбаины",true,"https://www.cstatic-images.com/car-pictures/xl/usd00lis021b021003.png");
-                Vehicle v6 = new Vehicle(219,95.0,5,595,"ford","explorer",2020,"Комбаины",true,"https://www.cstatic-images.com/car-pictures/xl/usd00fos102d021003.png");
+                Vehicle v4 = new Vehicle(265,58.89,5,6490,"kia","telluride",2020,"Комбаины",true,"");
+                Vehicle v5 = new Vehicle(229,86.5,5,4970,"lincoln","aviator",2020,"Комбаины",true,"");
+                Vehicle v6 = new Vehicle(219,95.0,5,595,"ford","explorer",2020,"Комбаины",true,"");
 
-                Vehicle v7 = new Vehicle(297,56.0,2,200,"chevrolet","camaro",2020,"Культиваторы",false,"https://www.cstatic-images.com/car-pictures/xl/usc90chc022b021003.png");
+                Vehicle v7 = new Vehicle(297,56.0,2,200,"chevrolet","camaro",2020,"Культиваторы",false,"");
 
                 vehicleDao.insert(v1);
                 vehicleDao.insert(v2);
